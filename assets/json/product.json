@@ -1,0 +1,72 @@
+[
+       {
+              "category": "shoes",
+              "brandName": "Nike",
+              "productName": "Air Max 270",
+              "productPrice": "$150.00",
+              "productImage": "https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/0eedce8cb602443ca723af1f016395fa_9366/Ultraboost_1_LCFP_Shoes_White_HQ6441_01_standard.jpg"
+       },
+       {
+              "category": "shoes",
+              "brandName": "Adidas",
+              "productName": "Ultra Boost",
+              "productPrice": "$180.00",
+              "productImage": "https://assets.adidas.com/images/w_600,f_auto,q_auto/8d6b8b015c1b41c19433aed701844c36_9366/Ultraboost_DNA_City_Xplorer_Outdoor_Trail_Shoes_Grey_GY8351_01_standard.jpg"
+       },
+       {
+              "category": "shoes",
+              "brandName": "New Balance",
+              "productName": "990v5",
+              "productPrice": "$175.00",
+              "productImage": "https://cdn.shopify.com/s/files/1/2358/2817/products/new-balance-530-beige-aluminum-1.png?v=1680691228"
+       },
+       {
+              "category": "shoes",
+              "brandName": "Nike",
+              "productName": "Air Max 270",
+              "productPrice": "$150.00",
+              "productImage": "https://www.buzzsneakers.ba/files/images/slike-proizvoda/media/AH6/AH6789-100/images/AH6789-100.jpg"
+       },
+       {
+              "category": "shoes",
+              "brandName": "Adidas",
+              "productName": "Ultra Boost",
+              "productPrice": "$180.00",
+              "productImage": "https://assets.adidas.com/images/w_600,f_auto,q_auto/8d6b8b015c1b41c19433aed701844c36_9366/Ultraboost_DNA_City_Xplorer_Outdoor_Trail_Shoes_Grey_GY8351_01_standard.jpg"
+       },
+       {
+              "category": "shoes",
+              "brandName": "Puma",
+              "productName": "RS-X",
+              "productPrice": "$120.00",
+              "productImage": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/390776/02/sv01/fnd/SEA/fmt/png/RS-X-Efekt-PRM-Sneakers"
+       },
+       {
+              "category": "shoes",
+              "brandName": "New Balance",
+              "productName": "990v5",
+              "productPrice": "$175.00",
+              "productImage": "https://nb.scene7.com/is/image/NB/mr530sg_nb_02_i?$pdpflexf2$&wid=440&hei=440"
+       },
+       {
+              "category": "clothes",
+              "brandName": "Zara",
+              "productName": "Slim Fit T-Shirt",
+              "productPrice": "$25.00",
+              "productImage": "https://static.zara.net/photos///2023/V/0/1/p/5584/461/250/2/w/563/5584461250_2_1_1.jpg?ts=1675790634469"
+       },
+       {
+              "category": "clothes",
+              "brandName": "H&M",
+              "productName": "Skinny Jeans",
+              "productPrice": "$40.00",
+              "productImage": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F34%2F9f%2F349f53a3217cc7bdad93238340843f8d5fb80b49.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bmen_jeans_slim%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/zoom]&zoom=zoom"
+       },
+       {
+              "category": "clothes",
+              "brandName": "Forever 21",
+              "productName": "Printed Dress",
+              "productPrice": "$30.00",
+              "productImage": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F34%2F9f%2F349f53a3217cc7bdad93238340843f8d5fb80b49.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bmen_jeans_slim%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/zoom]&zoom=zoom"
+       }
+]

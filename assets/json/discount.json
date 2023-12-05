@@ -1,0 +1,23 @@
+[
+       {
+         "storeName": "Floria",
+         "discountPercent": 20,
+         "discountCode": "FE2022"
+       },
+       {
+         "storeName": "Tiffany's",
+         "discountPercent": 15,
+         "discountCode": "THS4LE15"
+       },
+       {
+         "storeName": "4ceed",
+         "discountPercent": 25,
+         "discountCode": "HOME25OFF"
+       },
+       {
+         "storeName": "New Yorker",
+         "discountPercent": 30,
+         "discountCode": "BBVIP30"
+       }
+     ]
+     
