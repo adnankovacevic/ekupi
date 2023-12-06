@@ -1,16 +1,15 @@
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/flutter_svg.dart';
 import 'package:kupro/components/discount_card.dart';
 import 'package:kupro/components/new_arrivals_card.dart';
 import 'package:kupro/data/model/discount.dart';
 import 'package:kupro/data/model/product.dart';
 import 'package:kupro/res/app_colors.dart';
 import 'package:kupro/res/app_text_style.dart';
-import 'package:kupro/views/bottom_navigation/bottom_navigation_view.dart';
-import 'package:kupro/views/home/components/search_view.dart';
-import 'package:kupro/views/settings/settings_screen.dart';
+import 'package:kupro/presentation/bottom_navigation/bottom_navigation_view.dart';
+import 'package:kupro/presentation/home/components/search_view.dart';
+import 'package:kupro/presentation/settings/settings_screen.dart';
 
 class HomeScreen extends StatelessWidget {
   HomeScreen({super.key});
@@ -166,11 +165,13 @@ class HomeScreen extends StatelessWidget {
                                 ConnectionState.waiting) {
                               return CircularProgressIndicator();
                             } else if (snapshot.hasError) {
-                              return Text(
-                                  'Error loading products ${snapshot.error}');
+                              return SnackBar(
+                                  content: Text(
+                                      'Error loading products ${snapshot.error}'));
                             } else if (!snapshot.hasData ||
                                 snapshot.data!.isEmpty) {
-                              return Text('No products available');
+                              return SnackBar(
+                                  content: Text('No products available'));
                             } else {
                               return GridView.count(
                                 crossAxisCount: 2,

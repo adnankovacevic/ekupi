@@ -1,12 +1,17 @@
 import 'package:flutter/material.dart';
-import 'package:kupro/views/bottom_navigation/bottom_navigation_view.dart';
-import 'package:kupro/views/home/home_screen.dart';
+import 'package:kupro/presentation/bottom_navigation/bottom_navigation_view.dart';
+import 'package:kupro/presentation/details/providers/size_provider.dart';
+import 'package:kupro/presentation/home/home_screen.dart';
 import 'package:provider/provider.dart';
 
 void main() {
   runApp(
-    ChangeNotifierProvider(
-      create: (context) => BottomNavigationProvider(),
+    MultiProvider(
+      providers: [
+        ChangeNotifierProvider(create: (context) => BottomNavigationProvider()),
+        ChangeNotifierProvider(create: (context) => SizeProvider.instance),
+        // Add more providers if needed
+      ],
       child: MyApp(),
     ),
   );

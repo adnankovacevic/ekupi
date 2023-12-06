@@ -38,6 +38,11 @@ class AppTextStyle {
       fontWeight: FontWeight.w700,
       color: Colors.white,
       fontFamily: 'Poppins');
+  final TextStyle poppins20Black400 = TextStyle(
+      fontSize: 20.0,
+      fontWeight: FontWeight.w400,
+      color: Colors.black,
+      fontFamily: 'Poppins');
 
   final TextStyle poppins14White500 = TextStyle(
       fontSize: 14.0,
